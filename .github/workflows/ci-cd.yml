@@ -57,7 +57,7 @@ jobs:
 
     - name: Run Pytest
       run: |
-        pytest
+        PYTHONPATH=. pytest
 
     # =========================
     # SonarQube Scan
