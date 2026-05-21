@@ -107,7 +107,7 @@ jobs:
 
       - name: Tag Docker Image
         run: |
-          docker tag sonar-trivy-demo YOUR_DOCKER_USERNAME/sonar-trivy-demo:latest
+          docker tag sonar-trivy-demo abjay/sonar-trivy-demo:latest
 
       # ==========================================
       # Push Docker Image
@@ -115,4 +115,4 @@ jobs:
 
       - name: Push Docker Image
         run: |
-          docker push YOUR_DOCKER_USERNAME/sonar-trivy-demo:latest
+          docker push abjay/sonar-trivy-demo:latest
